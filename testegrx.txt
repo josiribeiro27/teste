@@ -1,0 +1,65 @@
+Teste da GRX
+
+questão n1
+resp:A
+questão n2
+resp:A
+questão n3
+resp:B
+teste de mesa questão3
+A=10
+i=0
+enquanto i<10 A=+1 e i+1
+i=0+1=1|=2| +1=2 | +1=3 | +1= 4| +1=5|+1=6 |+1=7 |+1=8 |+1=9|
+ A=10+1=11| +1=12| +1=13|+1=14 |+1=15|+1=16|+1=17|+1=18|+1=19+1=20
+ questão n4
+resp:D
+teste de mesa questão 4
+a=0,1,2,3,4
+x=0,1,2,3,4,0
+i=    1
+questão n5
+resp:c
+teste de mesa questão 5
+x=5
+ifx>1 x*a
+a=x(5)-1=4
+5*4*3*2=20
+(creio que a resposta seja 120 como nao aprendi esta funçao  de calcula ainda na facul pelas minhas pesquisas cheguei a esta conclusao mais de toda forma espero que corra tudo bem caso eu nao esteja correta espero poder ter a oportunidade de aprender o geito certo em breve)
+
+questão n6
+resp:E
+questão n7
+resp:A proposta é a de automatizar a escrita de código-fonte, mais precisamente, o que é escrito para tarefas conhecidas pela sigla CRUD (Create, Read, Update, Delete) a qual representa as quatro principais operações com bancos de dados: Criar, Ler, Atualizar e Excluir dados.
+questão n8
+resp:front-end e tudo aquilo que o usuario pode interagir a interface gráfica do projeto
+linguagens:(javascript ,python ,html,java.)
+questão n9
+resp back-end é o que existe por trás de uma aplicação, seria como um produtor por trás dos palcos nos bastidores de um show. 
+linguagens:(HTML, CSS, PHP, Python ruby)
+questão n10
+resp:
+var j = 0, msg = "me diga os pares de 0 a 10:\n";
+while (j <= 10) {
+    if (j % 2 === 0) {
+        if (j === 10){
+            msg += j + ". ";
+        }else{
+            msg += j + ", ";
+        }
+    }
+    j++;
+}
+console.log(msg);
+
+https://playcode.io/891365
+
+questão n11
+
+resp:o codigo que responde a questao da 11 ate a 18 esta no arquivo em anexo.
+
+questão 19
+resp:Git é um sistema de controle de versão distribuído, que permite uma equipe trabalhar juntos na construção de um projeto. Inicialmente, trabalhar com git usando linha de comando pode ser inconveniente, mas, à medida que você trabalha com o git, você começa a entender que é uma ótima opção.
+
+
+

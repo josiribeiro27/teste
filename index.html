@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <script src="js/script1.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Teste Prático</h1>
+    </header>
+
+    <main>
+        <div class="title">
+            <h2>Nome e Idade</h2>
+            <span>Insira os usuarios.</span>
+        </div>
+
+        <div class="card">
+            <div class="lineInput">
+                <label>Nome</label>
+                <input type="text" id="nome" placeholder="Nome dos Usuarios"> 
+            </div>
+
+            <div class="lineInput">
+                <label>Idade</label>
+                <input type="text" id="idade" placeholder="Idade dos usuarios"> 
+            </div>
+
+            <button onclick="formulario.salvar()">Salvar</button>
+            <button onclick="formulario.Cancelar()">Cancelar</button>
+        </div>
+
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <!--Class vai estar puxando um comando direto do css-->
+                  <th class="center">Ordem</th>
+                  <th>Nome</th>
+                  <th>idade</th>  
+                  <th>Ações</th>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+
+</body>
+</html>
